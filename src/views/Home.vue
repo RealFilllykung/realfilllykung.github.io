@@ -1,7 +1,9 @@
 <template>
 
   <div>
+    <!--
     <v-btn v-on:click="goToAbout()">Click me</v-btn>
+    -->
   </div>
   
 </template>
