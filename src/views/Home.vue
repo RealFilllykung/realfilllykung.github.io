@@ -1,11 +1,7 @@
 <template>
-
   <div>
-    <!--
-    <v-btn v-on:click="goToAbout()">Click me</v-btn>
-    -->
+
   </div>
-  
 </template>
 
 <script>
@@ -17,9 +13,7 @@ export default {
     
   },
   methods: {
-    goToAbout(){
-      this.$router.push('about')
-    }
+    
   }
 }
 </script>
