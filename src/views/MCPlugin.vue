@@ -1,6 +1,6 @@
 <template>
   <div class="mcplugin">
-
+    <h1>This is a mcplugin page</h1>
   </div>
 </template>
 
