@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
 import AppBarOptions from './AppBarOptions.json'
 import Button from 'react-bootstrap/Button'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import Logo from '../../images/logo.png'
 
 class AppBarOption extends React.Component{
@@ -20,9 +20,9 @@ class AppBarOption extends React.Component{
                 
             )
             return (
-                <Nav.Link href={option.link}>
-                    {option.text}
-                </Nav.Link>
+                <Link to={option.link}>
+                    <Button variant="outline-light" >{option.text}</Button>
+                </Link>
             )
         }
             

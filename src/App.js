@@ -6,22 +6,18 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <div className="App">
         <AppBar></AppBar>
         <div className="content">
           <Switch>
-
-            <Route exact path="/">
-              <Homepage></Homepage>
+            <Route exact path="/" component={Homepage}>
             </Route>
 
-            <Route path="/about">
-              <About></About>
+            <Route exact path="/about" component={About}>
             </Route>
 
-            <Route path="/projects">
-              <Projects></Projects>
+            <Route exact path="/projects" component={Projects}>
             </Route>
 
           </Switch>
