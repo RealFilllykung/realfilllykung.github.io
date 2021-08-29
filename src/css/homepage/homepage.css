@@ -1,0 +1,10 @@
+body {background-color: #121212;}
+
+.col-centered{
+    float: none;
+    margin-top: 25%;
+}
+
+.fullvHeight{
+    min-height: 75vh;
+}
