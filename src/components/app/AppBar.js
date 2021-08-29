@@ -4,15 +4,27 @@ import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
 import AppBarOptions from './AppBarOptions.json'
+import Button from 'react-bootstrap/Button'
+import { Link } from 'react-router-dom'
 
 class AppBarOption extends React.Component{
     render(){
         const options = AppBarOptions
         
-        const optionsList = options.map((option) => 
-            <Nav.Link href={option.link}>
-                {option.text}
-            </Nav.Link>
+        const optionsList = options.map((option, index) => {
+            if (index === options.length - 1) return (
+                <Link to="/projects">
+                    <Button variant="success">{option.text}</Button>
+                </Link>
+                
+            )
+            return (
+                <Nav.Link href={option.link}>
+                    {option.text}
+                </Nav.Link>
+            )
+        }
+            
         )
 
         return(
