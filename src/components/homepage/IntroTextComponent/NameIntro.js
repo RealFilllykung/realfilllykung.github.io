@@ -2,9 +2,9 @@ import { useSpring, animated } from 'react-spring'
 function NameIntro(){
     const styles = useSpring({
         loop: false,
-        from: {x:-1000, y:0},
+        from: {x:-2000, y:0},
         to: {x:0, y:0},
-        delay: 500,
+        delay: 250,
         opacity: 0
     })
 
