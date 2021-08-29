@@ -6,6 +6,7 @@ import Nav from 'react-bootstrap/Nav'
 import AppBarOptions from './AppBarOptions.json'
 import Button from 'react-bootstrap/Button'
 import { Link } from 'react-router-dom'
+import Logo from '../../images/logo.png'
 
 class AppBarOption extends React.Component{
     render(){
@@ -40,7 +41,15 @@ class Appbar extends React.Component{
         return(
             <Navbar bg="dark" variant="dark">
             <Container>
-            <Navbar.Brand href="/">Filllykung</Navbar.Brand>
+            <Navbar.Brand href="/">
+                <img
+                    alt=""
+                    src={Logo}
+                    width="40"
+                    height="40"
+                    className="d-inline-block align-top"
+                />{' '}
+            </Navbar.Brand>
             <AppBarOption></AppBarOption>
             </Container>
           </Navbar>
