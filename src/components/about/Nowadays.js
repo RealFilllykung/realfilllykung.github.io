@@ -19,12 +19,6 @@ function Nowadays(){
         to: {x:0,y:0}
     })
 
-    const styles2 = useSpring({
-        loop: false,
-        from: {x:1000, y:0},
-        to: {x:0,y:0}
-    })
-
     return (
         <animated.div style={{...styles}}>
             <Container className="mt-5 text-white">
