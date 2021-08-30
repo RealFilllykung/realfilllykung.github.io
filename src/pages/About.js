@@ -6,6 +6,7 @@ import Nowadays from '../components/about/Nowadays'
 function About() {
   return (
     <div className="About">
+      <div className="About-Large"></div>
         <EarlyDays></EarlyDays>
         <CollegeDays></CollegeDays>
         <Nowadays></Nowadays>

@@ -27,7 +27,7 @@ function CollegeDays(){
 
     return (
         <div>
-            <Container className="mt-5 text-white">
+            <Container className="mt-5 text-white d-none d-lg-block">
                 <Row>
                     <Col xs={6}>
                         <animated.div style={{...styles}}>

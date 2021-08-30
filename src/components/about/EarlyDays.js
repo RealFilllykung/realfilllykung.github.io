@@ -27,7 +27,7 @@ function EarlyDays(){
 
     return (
         <div>
-            <Container className="mt-5 text-white">
+            <Container className="mt-5 text-white d-none d-lg-block">
                 <Row>
                     <Col xs={6}>
                         <animated.p style={{...styles2}}>Image coming soon</animated.p>
