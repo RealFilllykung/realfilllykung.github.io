@@ -42,6 +42,14 @@ function EarlyDays(){
                     </Col>
                 </Row>
             </Container>
+
+            <Container className="mt-5 text-white d-lg-none">
+                <Row>
+                    <Col>
+                        <p>Mobile responsive coming soon</p>
+                    </Col>
+                </Row>
+            </Container>
         </div>  
     )
 }
