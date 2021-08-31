@@ -16,10 +16,10 @@ function ProjectCardList(){
         )
     }
 
-    function ConstructProjectCardRow(){
+    function ConstructProjectCardRowDesktop(){
         const ProjectCardArray = ProjectCardJson.map((item, index) => {
             return(
-                <Col xs={4}>
+                <Col xs={4} className="d-none d-lg-block">
                     <ConstructProjectCard num={index}></ConstructProjectCard>
                 </Col>
             )
@@ -32,10 +32,27 @@ function ProjectCardList(){
         )
     }
 
+    function ConstructProjectCardRowMobile(){
+        const ProjectCardArray = ProjectCardJson.map((item, index) => {
+            return(
+                <Col className="d-lg-none">
+                    <ConstructProjectCard num={index}></ConstructProjectCard>
+                </Col>
+            )
+        })
+        
+        return(
+            <Row className="justify-content-md-center">
+                {ProjectCardArray}
+            </Row>
+        )
+    }
+
     return(
         <div className="ProjectCardList">
             <Container>
-                <ConstructProjectCardRow></ConstructProjectCardRow>
+                <ConstructProjectCardRowDesktop></ConstructProjectCardRowDesktop>
+                <ConstructProjectCardRowMobile></ConstructProjectCardRowMobile>
             </Container>
         </div>
     )
