@@ -1,9 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ProjectClassList from '../components/projects/ProjectCardList'
+import { Container } from 'react-bootstrap'
 
 function Projects() {
   return (
-    <div className="About">
-        Projects page
+    <div className="Projects">
+      <ProjectClassList></ProjectClassList>
     </div>
   );
 }
