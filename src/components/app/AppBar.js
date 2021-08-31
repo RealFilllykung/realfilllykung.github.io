@@ -20,9 +20,9 @@ class AppBarOption extends React.Component{
                 
             )
             return (
-                <Nav.Link href={option.link}>
-                    {option.text}
-                </Nav.Link>
+                <Link to={option.link}>
+                    <Button variant="outline-light" >{option.text}</Button>
+                </Link>
             )
         }
             

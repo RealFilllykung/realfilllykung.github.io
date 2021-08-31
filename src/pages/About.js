@@ -1,9 +1,15 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import EarlyDays from '../components/about/EarlyDays'
+import CollegeDays from '../components/about/CollegeDays'
+import Nowadays from '../components/about/Nowadays'
 
 function About() {
   return (
     <div className="About">
-        About page
+      <div></div>
+        <EarlyDays></EarlyDays>
+        <CollegeDays></CollegeDays>
+        <Nowadays></Nowadays>
     </div>
   );
 }

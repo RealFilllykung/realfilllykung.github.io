@@ -1,9 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ProjectClassList from '../components/projects/ProjectCardList'
 
 function Projects() {
   return (
-    <div className="About">
-        Projects page
+    <div className="Projects">
+      <ProjectClassList></ProjectClassList>
     </div>
   );
 }
