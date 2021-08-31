@@ -40,6 +40,17 @@ function CollegeDays(){
                     </Col>
                 </Row>
             </Container>
+
+            <Container className="mt-5 text-white d-lg-none">
+                <Row>
+                    <Col>
+                        <animated.div style={{...styles}}>
+                                <h1 style={{...styles}}>{CollegeDaysMessage.header}</h1>
+                                <p style={{...styles}}>{CollegeDaysMessage.message}</p>
+                        </animated.div>
+                    </Col>
+                </Row>
+            </Container>
         </div>
     )
 }

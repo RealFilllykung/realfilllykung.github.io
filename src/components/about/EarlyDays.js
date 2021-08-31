@@ -46,10 +46,14 @@ function EarlyDays(){
             <Container className="mt-5 text-white d-lg-none">
                 <Row>
                     <Col>
-                        <p>Mobile responsive coming soon</p>
+                        <animated.div style={{...styles}}>
+                                <h1 style={{...styles}}>{EarlyDaysMessage.header}</h1>
+                                <p style={{...styles}}>{EarlyDaysMessage.message}</p>
+                        </animated.div>
                     </Col>
                 </Row>
             </Container>
+
         </div>  
     )
 }

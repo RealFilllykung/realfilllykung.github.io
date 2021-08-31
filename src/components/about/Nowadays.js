@@ -20,19 +20,33 @@ function Nowadays(){
     })
 
     return (
-        <animated.div style={{...styles}}>
-            <Container className="mt-5 text-white d-none d-lg-block">
+        <div>
+            <animated.div style={{...styles}}>
+                <Container className="mt-5 text-white d-none d-lg-block">
+                    <Row>
+                        <Col xs={6}>
+                            Image coming soon
+                        </Col>
+                        <Col xs={6}>
+                            <h1>{NowadaysMessage.header}</h1>
+                            <p>{NowadaysMessage.message}</p>
+                        </Col>
+                    </Row>
+                </Container>
+            </animated.div>
+
+            <Container className="mt-5 text-white d-lg-none">
                 <Row>
-                    <Col xs={6}>
-                        Image coming soon
-                    </Col>
-                    <Col xs={6}>
-                        <h1>{NowadaysMessage.header}</h1>
-                        <p>{NowadaysMessage.message}</p>
+                    <Col>
+                        <animated.div style={{...styles}}>
+                                <h1 style={{...styles}}>{NowadaysMessage.header}</h1>
+                                <p style={{...styles}}>{NowadaysMessage.message}</p>
+                        </animated.div>
                     </Col>
                 </Row>
             </Container>
-        </animated.div>
+        </div>
+        
     )
 }
 
