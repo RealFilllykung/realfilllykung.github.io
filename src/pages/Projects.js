@@ -1,10 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ProjectClassList from '../components/projects/ProjectCardList'
+import ProjectCardList from '../components/projects/ProjectCardList'
 
 function Projects() {
   return (
     <div className="Projects">
-      <ProjectClassList></ProjectClassList>
+      <ProjectCardList></ProjectCardList>
     </div>
   );
 }
