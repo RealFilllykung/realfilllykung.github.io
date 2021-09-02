@@ -1,6 +1,3 @@
 [
-    {"name":"Demo title 1", "description":"Demo card 1","imageLink":""},
-    {"name":"Demo title 2", "description":"Demo card 2","imageLink":""},
-    {"name":"Demo title 3", "description":"Demo card 3","imageLink":""},
-    {"name":"Demo title 4", "description":"Demo card 4","imageLink":""}
+    {"name":"React Todo", "description":"Simple todo app created on ReactJS","imageLink":"https://s9.gifyu.com/images/KIHt5IBr0R.gif","projectLink":"https://realfilllykung.github.io/react-todo/"}
 ]

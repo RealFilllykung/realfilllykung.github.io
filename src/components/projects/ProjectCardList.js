@@ -11,6 +11,7 @@ function ProjectCardList(){
                 name={projectCard.name}
                 description={projectCard.description}
                 imageLink={projectCard.imageLink}
+                projectLink={projectCard.projectLink}
             >
             </ProjectCard>
         )
