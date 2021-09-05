@@ -3,7 +3,10 @@ import { Card, Container, Row, Col, Button } from 'react-bootstrap'
 function ProjectCard(props) {
 
     function clickLink(){
-        window.location.href = props.projectLink
+        window.open(
+            props.projectLink,
+            '_blank'
+        )
     }
     return (
       <div className="Projects">

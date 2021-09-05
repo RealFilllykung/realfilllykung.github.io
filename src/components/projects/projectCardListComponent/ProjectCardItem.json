@@ -1,4 +1,5 @@
 [
     {"name":"React Todo", "description":"Simple todo app created on ReactJS","imageLink":"https://s9.gifyu.com/images/xDobyn3xmv.gif","projectLink":"https://realfilllykung.github.io/react-todo/"},
-    {"name":"React Thai Covid Report", "description":"Thai Covid Report React app using API calls from ddc.moph.go.th website","imageLink":"https://i.imgur.com/TW0kFEe.png","projectLink":"https://realfilllykung.github.io/react-thai-covid-report/"}
+    {"name":"React Thai Covid Report", "description":"Thai Covid Report React app using API calls from ddc.moph.go.th website","imageLink":"https://i.imgur.com/TW0kFEe.png","projectLink":"https://realfilllykung.github.io/react-thai-covid-report/"},
+    {"name":"React + ExpressJS Realtime Chat Room", "description":"Real time chat room using React as a frontend and ExpressJS as a backend for websocket","imageLink":"https://s9.gifyu.com/images/vX8KjeBR3G.gif","projectLink":"https://github.com/RealFilllykung/react-nodejs-chat-room"}
 ]
